@@ -1,7 +1,7 @@
 import curses
 
-from pw4.input import stucount,inputmarks,inputstuinfo,inputcourseinfo,coucount,calgpa
-from pw4.output import  displaymark,displaystuinfo,displaycouinfo,gpasorting
+from input import stucount,inputmarks,inputstuinfo,inputcourseinfo,coucount,calgpa
+from output import  displaymark,displaystuinfo,displaycouinfo,gpasorting
 scr=curses.initscr()
 curses.start_color()
 #main
