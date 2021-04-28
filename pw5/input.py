@@ -1,9 +1,9 @@
 import curses
 import  math
 import  numpy as  np
-from pw4.domain.student import student
-from pw4.domain.course import course
-from  pw4.domain.mark import mark
+from domain.student import student
+from domain.course import course
+from  domain.mark import mark
 
 students=[]
 studentID=[]

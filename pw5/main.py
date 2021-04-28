@@ -1,8 +1,8 @@
 import curses
 import zipfile
 import os
-from pw4.input import stucount,inputmarks,inputstuinfo,inputcourseinfo,coucount,calgpa
-from pw4.output import  displaymark,displaystuinfo,displaycouinfo,gpasorting
+from input import stucount,inputmarks,inputstuinfo,inputcourseinfo,coucount,calgpa
+from "output import displaystuinfo,displaymark,displaycouinfo,gpasorting
 scr=curses.initscr()
 curses.start_color()
 #main
@@ -20,7 +20,7 @@ def main() :
             for i in range(nums):
                 scr.addstr(f"student {i+1}\n")
                 inputstuinfo()
-                scr.refresh()
+                scr.refresh()"
             numoc=coucount()
             scr.refresh()
             scr.clear()
