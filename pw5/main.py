@@ -2,7 +2,7 @@ import curses
 import zipfile
 import os
 from input import stucount,inputmarks,inputstuinfo,inputcourseinfo,coucount,calgpa
-from "output import displaystuinfo,displaymark,displaycouinfo,gpasorting
+from output import displaystuinfo,displaymark,displaycouinfo,gpasorting
 scr=curses.initscr()
 curses.start_color()
 #main
