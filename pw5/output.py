@@ -23,20 +23,20 @@ curses.start_color()
 def displaystuinfo():
     scr.addstr("this is the list of student: \n")
     scr.refresh()
-    for stu in students:
-        scr.addstr("student's name: %s   student's ID: %s   student's dob: %s" %(stu.getname(),stu.getid(),stu.getdob()))
+    for stu_d in students:
+        scr.addstr("student's name: %s   student's ID: %s   student's dob: %s" %(stu_d.getname(),stu_d.getid(),stu_d.getdob()))
         scr.refresh()
 #display courses's information
 def displaycouinfo():
     scr.addstr("this is the list of all course: \n")
     scr.refresh()
-    for cou in courses:
-        scr.addstr(" course's name: %s    course's ID: %s    number of credits : %s" %(cou.getcname(), cou.getcid(), cou.getcredits()))
+    for cou_r in courses:
+        scr.addstr(" course's name: %s    course's ID: %s    number of credits : %s" %(cou_r.getcname(), cou_r.getcid(), cou_r.getcredits()))
         scr.refresh()
 #display marks
 def displaymark():
-    for ma in marksinfo:
-        scr.addstr("student's ID   course's ID: %s   : %s mark: %s" %(ma.getid(),ma.getcid(),ma.getmark))
+    for ma_k in marksinfo:
+        scr.addstr("student's ID   course's ID: %s   : %s mark: %s" %(ma_k.getid(),ma_k.getcid(),ma_k.getmark))
         scr.refresh()
 #gpa sorting
 def gpasorting():

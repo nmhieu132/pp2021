@@ -63,7 +63,7 @@ def inputstuinfo():
     scr.refresh()
     dob=scr.getstr().decode()
     studob.append(dob)
-    if len(student) == 0:
+    if len(students) == 0:
         f = open("student.txt", "w")
     else:
         f = open("student.txt", "a")
@@ -95,7 +95,7 @@ def inputcourseinfo():
     courseID.append(cid)
     coursename.append(cname)
     coursecres.append(credits)
-    if len(course) == 0:
+    if len(courses) == 0:
         f = open("course.txt", "w")
     else:
         f = open("course.txt", "a")
@@ -120,7 +120,7 @@ def inputmarks():
             exit()
     else:
         exit()
-    if len(mark) == 0:
+    if len(marks) == 0:
         f = open("marks.txt", "w")
     else:
         f = open("marks.txt", "a")
